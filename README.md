@@ -28,6 +28,7 @@ Changes in v2:
   statements
 - Changed id of multicolor class from 4 to 3
 - Replaced call to devm_kmalloc_array() with devm_kcalloc()
+
 Changes in v3:
 - Add CONFIG_LEDS_BLINKM_MULTICOLOR to check whether to use multicolor
   funcitonality
@@ -38,17 +39,22 @@ Changes in v3:
 - Remove magic numbers
 - Fix formatting errors
 - Remove unrelated changes
+
 Changes in v4:
 - Fix indentation
 - Add default case to switch statement
+
 Changes in v5:
 - Fix warnings related to snprintf on s390 architecture, reported by
   0-DAY CI Kernel Test Service
+  
 Changes in v6:
 - Refactored struct blinkm_led to use a union
 - Refactored blinkm_probe()
 - Clarified documentation
+
 Changes in v7:
 - Fix formatting and spelling errors
+
 Changes in v8:
 - Make compatible with Linux -next
