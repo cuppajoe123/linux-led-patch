@@ -20,6 +20,7 @@ three color components and then set the fields of the blinkm_data
 structure accordingly.
 
 Signed-off-by: Joseph Strauss <jstrauss@mailbox.org>
+
 ---
 Changes in v2:
 - Replaced instances of the constant 3 with NUM_LEDS, where applicable
